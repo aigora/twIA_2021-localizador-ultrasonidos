@@ -1,6 +1,8 @@
 # LPS - Localizador Ultrasónico
 
-Un aparato que mediante sensores y algoritmos detectará su posicion en una habitacion cerrada, parecido a un GPS rudimentario.
+El LPS o Localizador Ultrasónico es un sistema de posicionamiento local de objetos dentro de un espacio cerrado, através de la utilización
+de diferentes sensores ultrasonidos, gracias a los cuales conseguiremos medir varias distancias al objeto desde diferentes posiciones
+dentro del espacio cerrado, y asi situarlo dentro de este. Este sistema podría parecerse a un GPS convencional para interiores.
 
 ## Integrantes del equipo
 <strong>Nombre            -            Usuario</strong>
@@ -10,9 +12,13 @@ Un aparato que mediante sensores y algoritmos detectará su posicion en una habi
 <br />Sergio Rodriguez - Srsanz
 <br />Javier Gasco - j-gasco
 
+
 ## Objetivos del trabajo
 
-Planear los pasos a seguir, familiarizarnos con el hardware a utilizar y escribir el codigo necesario para el objetivo propuesto.
+Mediante la realización un trabajo cooperativo aplicar los conocimientos de computación aprendios y familiarizarnos con ellos, y a su
+vez aprender nuevas utilidades y herramientas para realizar sistemas o aparatos complejos. Un ejemplo de ello sería la implementación 
+de placas de Arduino o la incorporación de sistemas externos como los sensores ultrasonidos.
+Para ello planearemos los pasos a seguir y escribiremos el codigo necesario para el relizar el sistema o aparato propuesto.
 
 ## Plantilla
 
