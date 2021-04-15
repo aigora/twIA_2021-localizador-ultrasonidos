@@ -31,6 +31,6 @@ Con estos sensores de ultrasonidos, detectaremos la distancia a la que se encont
 que tenemos la distancia, mediante una serie de bucles obtendremos la casilla en la que se encuentra el objeto, de ese modo podremos 
 imprimir en la pantalla la localización de nuestro objeto. 
 
-Actuadores y sensores
+## Actuadores y sensores
 
-Para la realización del proyecto , el principal sensor que  utilizaremos sera el sensor de ultrasonido que mide las distacias con el uso de  ondas ultrasónicas inaudibles para el oido humano que rebotan en los objetos que se encuentren a cierta distancia  del sensore
+Para la realización del proyecto , el principal sensor que  utilizaremos sera el sensor de ultrasonido que mide las distacias con el uso de  ondas ultrasónicas inaudibles para el oido humano que rebotan en los objetos que se encuentren a cierta distancia  del sensores.
