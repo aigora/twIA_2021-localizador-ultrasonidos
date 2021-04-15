@@ -30,3 +30,7 @@ en que casilla se encuentra nuestro objeto.
 Con estos sensores de ultrasonidos, detectaremos la distancia a la que se encontrará el objeto dentro del recinto cerrado. Una vez
 que tenemos la distancia, mediante una serie de bucles obtendremos la casilla en la que se encuentra el objeto, de ese modo podremos 
 imprimir en la pantalla la localización de nuestro objeto. 
+
+##Actuadores y sensors
+
+Para la realización del proyecto , el principal sensor que  utilizaremos sera el sensor de ultrasonido que mide las distacias con el uso de  ondas ultrasónicas inaudibles para el oido humano que rebotan en los objetos que se encuentren a cierta distancia  del sensor
