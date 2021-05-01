@@ -7,7 +7,7 @@ dentro del espacio cerrado, y asi situarlo dentro de este. Este sistema podría 
 ## Integrantes del equipo
 <strong>Nombre            -            Usuario</strong>
 <br />Antonio García Montes - antoniogmontes
-<br />Joaquín Gabriel Huirse - 
+<br />Joaquín Gabriel Huirse - jhuirse
 <br />Jorge Riveiro - j-riveiro
 <br />Sergio Rodriguez - Srsanz
 <br />Javier Gasco - j-gasco
