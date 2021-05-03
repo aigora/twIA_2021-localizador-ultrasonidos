@@ -13,24 +13,23 @@ dentro del espacio cerrado, y asi situarlo dentro de este. Este sistema podría 
 <br />Javier Gasco - j-gasco
 
 
-## Objetivos del trabajo
-
-Mediante la realización un trabajo cooperativo aplicar los conocimientos de computación aprendios y familiarizarnos con ellos, y a su
-vez aprender nuevas utilidades y herramientas para realizar sistemas o aparatos complejos. Un ejemplo de ello sería la implementación 
-de placas de Arduino o la incorporación de sistemas externos como los sensores ultrasonidos.
-Para ello planearemos los pasos a seguir y escribiremos el codigo necesario para el relizar el sistema o aparato propuesto.
-
-## Plantilla
-
-La base del recinto cerrado la dividiremos en una cuadrícula de tal manera que luego con la distancia de los sensores podremos obtener 
-en que casilla se encuentra nuestro objeto.
-
-## Ultrasonidos
-
-Con estos sensores de ultrasonidos, detectaremos la distancia a la que se encontrará el objeto dentro del recinto cerrado. Una vez
-que tenemos la distancia, mediante una serie de bucles obtendremos la casilla en la que se encuentra el objeto, de ese modo podremos 
-imprimir en la pantalla la localización de nuestro objeto. 
-
-## Actuadores y sensores
-
-Para la realización del proyecto , el principal sensor que  utilizaremos sera el sensor de ultrasonido que mide las distacias con el uso de  ondas ultrasónicas inaudibles para el oido humano que rebotan en los objetos que se encuentren a cierta distancia  del sensores.
+## Objetivo:
+Desarrollar un dispositivo que mediante sensores y algoritmos detecte su posición en un recinto cerrado, parecido a un GPS rudimentario.
+## Etapas de la aplicación:
+-	Periodo de reconocimiento.
+-	Colocación del dispositivo.
+-	Cálculo de posición.
+## Primera etapa: Periodo de aprendizaje.
+Se realizará en un periodo previo al ejercicio. Se colocará el dispositivo, con al menos 4 sensores de ultrasonidos, en distintas posiciones de un espacio sin obstáculos para reconocer el entorno en el que está. Se almacenarán los datos obtenidos en ficheros.
+## Segunda etapa: Colocación del dispositivo.
+Se coloca el dispositivo, inmóvil, en la posición cuya localización se quiere conocer.
+## Tercera etapa: Cálculo de posición.
+Mediante los sensores ultrasonidos y la división del recinto en nueve zonas diferentes, se hará el cálculo de la posición del dispositivo en dicho recinto. Compara en una aplicación, que divide la zona en un recinto de 7x4, la posición obtenida en el periodo de aprendizaje almacenada en los ficheros, con la posición actual del dispositivo.
+## Requisitos obligatorios:
+Realizar el ejercicio con 4 sensores de ultrasonidos en un recinto cerrado, con las direcciones norte, sur, este y oeste.
+## Requisitos opcionales:
+Realizar el ejercicio con 8 sensores ultrasonidos, incluyendo así el noreste, noroeste, sureste y suroeste.
+## Magnitudes físicas y datos de entrada:
+La distancia será necesaria para que los sensores de ultrasonidos detecten la posición exacta del dispositivo. El sensor de ultrasonidos propuesto para el ejercicio es el HC-SR04. 
+## Datos de salida:
+La posición del dispositivo será la salida, y para ello se compararán los ficheros almacenados en el periodo de aprendizaje del entorno con los obtenidos en el ejercicio. 
