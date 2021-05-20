@@ -39,7 +39,7 @@ toda esta plantilla.
 
 ## Primera etapa: Reconocimiento del tablero
 Se realizará en un periodo previo al ejercicio. Se colocará el dispositivo con sus 8 sensores ultrasonidos en las distintas posiciones del 
-tablero, y se realizará una primera medición de las distancias que recogen los sensores, y se almacenarán en un fichero. En esta primera
+tablero, y se realizará una primera medición de las distancias que recogen los sensores, que se almacenarán en un fichero. En esta primera
 medición no se situará ningún objeto dentro del tablero y únicamente servirá para delimitar el recinto en el que se encuentra el dispositivo.
 De esta manera en las siguientes etapas nos será más fácil situar el objeto, puesto que podremos descartar distintas distancias que se encuantran
 fuera de la cuadrícula y que por lo tanto no corresponden al objeto, sino a las paredes o límites del espacio en el que hemos situado el dispositivo.
