@@ -21,9 +21,12 @@ de placas de Arduino o la incorporación de sistemas externos como los sensores 
 Para ello planearemos los pasos a seguir y escribiremos el codigo necesario para el relizar el sistema o aparato propuesto.
 ## Material necesario:
 -Sensores HC-SR04; estos sensores de ultrasonidos serán los encargados de la medición de la distancia del objeto que deseemos medir. Utilizaremos 8.
-Los sensores de ultrasonidos miden la distancia mediante el uso de ondas ultrasónicas, su cabezal emite esta onda y recibe la onda reflejada que retorna desde el objeto, mide la distancia al objeto contando el tiempo entre la emisión y la recepción. 
--Placa de arduino: es una plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable y una serie de pines hembra. Estos permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla. 
--Plantilla: utilizaremos esta plantilla, para una vez que dispongamos de las medidas podamos ubicar de la manera mas precisa posible donde se encuentra el objeto que deseemos situar, esta plantilla de 30x32 cm se divide en una cuadricula 7x4 de forma que los sensores abarquen toda esta plantilla.
+Los sensores de ultrasonidos miden la distancia mediante el uso de ondas ultrasónicas, su cabezal emite esta onda y recibe la onda reflejada que retorna
+desde el objeto, mide la distancia al objeto contando el tiempo entre la emisión y la recepción. 
+-Placa de arduino: es una plataforma de desarrollo basada en una placa electrónica de hardware libre que incorpora un microcontrolador re-programable
+y una serie de pines hembra. Estos permiten establecer conexiones entre el microcontrolador y los diferentes sensores y actuadores de una manera muy sencilla. 
+-Plantilla: utilizaremos esta plantilla, para una vez que dispongamos de las medidas podamos ubicar de la manera mas precisa posible donde se encuentra
+el objeto que deseemos situar, esta plantilla de 30x32 cm se divide en una cuadricula 7x4 de forma que los sensores abarquen toda esta plantilla.
 ## Etapas de la aplicación:
 -	Periodo de reconocimiento.
 -	Colocación del dispositivo.
