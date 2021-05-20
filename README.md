@@ -15,6 +15,10 @@ dentro del espacio cerrado, y asi situarlo dentro de este. Este sistema podría 
 
 ## Objetivo:
 Desarrollar un dispositivo que mediante sensores y algoritmos detecte su posición en un recinto cerrado, parecido a un GPS rudimentario.
+Mediante la realización un trabajo cooperativo aplicar los conocimientos de computación aprendios y familiarizarnos con ellos, y a su
+vez aprender nuevas utilidades y herramientas para realizar sistemas o aparatos complejos. Un ejemplo de ello sería la implementación 
+de placas de Arduino o la incorporación de sistemas externos como los sensores ultrasonidos.
+Para ello planearemos los pasos a seguir y escribiremos el codigo necesario para el relizar el sistema o aparato propuesto.
 ## Etapas de la aplicación:
 -	Periodo de reconocimiento.
 -	Colocación del dispositivo.
