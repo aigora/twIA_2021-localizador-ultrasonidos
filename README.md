@@ -32,10 +32,10 @@ se encuentrael objeto que deseemos situar, esta plantilla de 30x32 cm se divide 
 toda esta plantilla. 
 
 ## Funcionamiento de la aplicación:
--Reconocimineto del tablero.
--Colocación del dispositivo.
--Medición de la distancia.
--Cálculo de la posición.
+- Reconocimineto del tablero.
+- Colocación del dispositivo.
+- Medición de la distancia.
+- Cálculo de la posición.
 
 ## Primera etapa: Reconocimiento del tablero
 Se realizará en un periodo previo al ejercicio. Se colocará el dispositivo con sus 8 sensores ultrasonidos en las distintas posiciones del 
