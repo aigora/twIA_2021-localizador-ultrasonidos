@@ -40,7 +40,7 @@ long readUltrasonicSensor(long control) {
   
 void procesar_mensaje(void)
 {
-  int numero,i=0,control=0,distancia[7];
+  int numero,i=0,control=0,distancia[7],j=0;
   String cadena = Serial.readStringUntil('\n'); // Lee mensaje
   String valor = Serial.readStringUntil('\n');  // Lee valor
   numero = valor.toInt();  // Transforma valor a entero
@@ -53,6 +53,7 @@ void procesar_mensaje(void)
             distancia[i] = readUltrasonicSensor(control);
            }
     Serial.println("scanarduino ");
-    Serial.println(distancia[7]);
+    for (j=0;j<7;j++)
+    Serial.println(distancia[j]);
     }
 }
