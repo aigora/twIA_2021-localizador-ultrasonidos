@@ -1,12 +1,12 @@
 #include <stdio.h>
-//Este código recoge las distancias de los 8 sensores en un vector y las imprime en pantalla.
+//Este código recoge las distancias de los 7 sensores en un vector y las imprime en pantalla.
 
 void setup()
 {   
   long i,j,k;
-  long distancia[8]; //Para introducir las distancias de los 8 sensores, se almacenan en un vector de tamaño 8.
+  long distancia[7]; //Para introducir las distancias de los 7 sensores, se almacenan en un vector de tamaño 7.
   Serial.begin(9600);
-  for (i=0;i<8;i++)
+  for (i=0;i<7;i++)
      {
       distancia[i]=0;  //Se inicializa el vector a 0.
      }
@@ -40,14 +40,14 @@ long readUltrasonicSensor(long control) {
   
 void procesar_mensaje(void)
 {
-  int numero,i=0,control=0,distancia[8];
+  int numero,i=0,control=0,distancia[7];
   String cadena = Serial.readStringUntil('\n'); // Lee mensaje
   String valor = Serial.readStringUntil('\n');  // Lee valor
   numero = valor.toInt();  // Transforma valor a entero
   
   if (cadena.equals("scan")) // Entre las comillas se pone el texto del mensaje que se espera  
     {
-         for (i=0;i<8;i++) //
+         for (i=0;i<7;i++) //
           {
             control=2*i; //Para la funcion. Si i es,por ejemplo 4, a este sensor le corresponden los pines 8 y 9. Entonces multiplica 2*2 y obtiene el primer pin, y el otro lo consigue sumando 1.
             distancia[i] = readUltrasonicSensor(control);
